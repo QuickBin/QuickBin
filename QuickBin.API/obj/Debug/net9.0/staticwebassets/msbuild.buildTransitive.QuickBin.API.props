@@ -1,3 +1,0 @@
-<Project>
-  <Import Project="../buildMultiTargeting/QuickBin.API.props" />
-</Project>
