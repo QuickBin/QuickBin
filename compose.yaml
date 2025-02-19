@@ -1,0 +1,22 @@
+﻿services:
+  quickbin-backend:
+    image: quickbin:0.0.1
+    container_name: quickbin
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: QuickBin.API/Dockerfile
+
+  database:
+    image: postgres:17-alpine
+    container_name: quickbin-db
+    restart: unless-stopped
+    ports:
+      - 22025:5432
+    environment:
+      - POSTGRES_DB=quickbin
+      - POSTGRES_USER=quickbin
+      - POSTGRES_PASSWORD=quickbin-secure-password
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+

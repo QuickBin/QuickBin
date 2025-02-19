@@ -1,0 +1,6 @@
+@QuickBin.API_HostAddress = http://localhost:5268
+
+GET {{QuickBin.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
