@@ -51,3 +51,7 @@
 /home/andrin/RiderProjects/QuickBin/src/QuickBin.API/obj/Debug/net9.0/QuickBin.API.genruntimeconfig.cache
 /home/andrin/RiderProjects/QuickBin/src/QuickBin.API/obj/Debug/net9.0/ref/QuickBin.API.dll
 /home/andrin/RiderProjects/QuickBin/src/QuickBin.API/bin/Debug/net9.0/Scalar.AspNetCore.dll
+/home/andrin/RiderProjects/QuickBin/src/QuickBin.API/bin/Debug/net9.0/Microsoft.AspNetCore.SpaServices.Extensions.dll
+/home/andrin/RiderProjects/QuickBin/src/QuickBin.API/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/andrin/RiderProjects/QuickBin/src/QuickBin.API/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+/home/andrin/RiderProjects/QuickBin/src/QuickBin.API/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll

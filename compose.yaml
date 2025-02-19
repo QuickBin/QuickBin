@@ -3,15 +3,20 @@
     image: quickbin:0.0.1
     container_name: quickbin
     restart: unless-stopped
+    ports:
+      - 8080:8080
     environment:
-      - QUICKBIN__DB__HOST=127.0.0.1
-      - QUICKBIN__DB__PORT=22025
+      - QUICKBIN__DB__HOST=database
+      - QUICKBIN__DB__PORT=5432
       - QUICKBIN__DB__DATABASE=quickbin
       - QUICKBIN__DB__USER=quickbin
       - QUICKBIN__DB__PASSWORD=quickbin-secure-password
     build:
       context: .
-      dockerfile: QuickBin.API/Dockerfile
+      dockerfile: src/QuickBin.API/Dockerfile
+    depends_on:
+      database:
+        condition: service_started
 
   database:
     image: postgres:17-alpine

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickBin.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17db7d56fe4d3d2a2e592d8b14501f9a7653ecab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c6025176fcce2f3b731aa018fea8a7e90606237")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickBin.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickBin.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
