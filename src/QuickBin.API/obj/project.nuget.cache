@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "e9AU0EfUIFU=",
+  "dgSpecHash": "RT7gtvakpb4=",
   "success": true,
   "projectFilePath": "/home/andrin/RiderProjects/QuickBin/src/QuickBin.API/QuickBin.API.csproj",
   "expectedPackageFiles": [
     "/home/andrin/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/home/andrin/.nuget/packages/microsoft.aspnetcore.spaservices.extensions/9.0.2/microsoft.aspnetcore.spaservices.extensions.9.0.2.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.entityframeworkcore/9.0.2/microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.2/microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.2/microsoft.entityframeworkcore.analyzers.9.0.2.nupkg.sha512",
@@ -14,6 +15,9 @@
     "/home/andrin/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.1/microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.2/microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.2/microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
+    "/home/andrin/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.2/microsoft.extensions.fileproviders.abstractions.9.0.2.nupkg.sha512",
+    "/home/andrin/.nuget/packages/microsoft.extensions.fileproviders.physical/9.0.2/microsoft.extensions.fileproviders.physical.9.0.2.nupkg.sha512",
+    "/home/andrin/.nuget/packages/microsoft.extensions.filesystemglobbing/9.0.2/microsoft.extensions.filesystemglobbing.9.0.2.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.extensions.logging/9.0.2/microsoft.extensions.logging.9.0.2.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.2/microsoft.extensions.logging.abstractions.9.0.2.nupkg.sha512",
     "/home/andrin/.nuget/packages/microsoft.extensions.options/9.0.2/microsoft.extensions.options.9.0.2.nupkg.sha512",
